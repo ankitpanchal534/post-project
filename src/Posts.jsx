@@ -14,7 +14,7 @@ export default function Posts() {
           let posts = [...data]
           if(post==""){
         setPost(posts)}
-        console.log(post)
+       
 
       });
   }
@@ -22,7 +22,9 @@ export default function Posts() {
   getData()
   function inputHandler(e){
     let inpVal = event.target.value.toLowerCase();
+     console.log(inpVal)
     setSearch(inpVal)
+    
     
   return (
     <div>
