@@ -21,7 +21,7 @@ export default function Posts() {
 
   getData()
   function inputHandler(e){
-    let inpVal = event.target.value.toLowerCase();
+    let inpVal = e.target.value.toLowerCase();
      console.log(inpVal)
     setSearch(inpVal)
     
