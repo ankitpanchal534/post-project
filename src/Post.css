@@ -1,0 +1,22 @@
+.card-ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+background-color: rgb(20, 16, 30);
+  
+}
+.header input{
+width: 50%;
+outline: none;
+ padding: 5px;
+ font-size: large;
+}
+.header{
+    padding: 20px;
+justify-content: center;
+    display: flex;
+    align-content: center;
+}
+h2{
+    color: white;
+    justify-content: center;
+}
