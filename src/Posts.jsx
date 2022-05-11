@@ -20,11 +20,10 @@ export default function Posts() {
   }
 
   getData()
-  function inputHandler(e){
-    let inpVal = e.target.value.toLowerCase();
-     console.log(inpVal)
-    setSearch(inpVal)
-    
+ const inputHandler = (e)=>{
+      let searchval = e.target.value.toLowerCase();
+      setSearch(searchval)
+ }
     
   return (
     <div>
