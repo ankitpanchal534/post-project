@@ -20,11 +20,15 @@ export default function Posts() {
   }
 
   getData()
+  function inputHandler(e){
+    let inpVal = event.target.value.toLowerCase();
+    setSearch(inpVal)
+    
   return (
     <div>
         
         <div className="header">
-            <input placeholder="Search" onChange={(e)=>{setSearch((e.target.value))}}/>
+            <input placeholder="Search" onChange={inputHandler}}/>
           
         </div>
     <div className="card-ul">
